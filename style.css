@@ -146,7 +146,6 @@ body {
       color: white;
       text-align: center;
       padding: 0.8em 0em;
-
       text-transform: uppercase;
   }
 
@@ -191,11 +190,6 @@ body {
     font-size: 1em;
   }
 
-  /* .portfolio-photo {
-      width: 70%;
-  } */
-
-
 
   .container {
     display: flex;
@@ -204,18 +198,84 @@ body {
     align-items:flex-end;
   }
 
+.work-title {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
   .port-photo {
-      width:500px;
+      /* width:500px; */
+      width: 80vw;
       margin: 20px;
-      transition: all 2s;
   }
 
   .port-photo:hover {
     transform: scale (1.1);
    }
 
+   
 
-/* ************** Media Queries *************** */
+   /* ******************************** port item***************** */
+
+   .portitem-container {
+        background-color: black;
+        color:white;
+   }
+
+   .portitem-photo {
+        width: 80vw;
+        /* width: 100%; */
+        padding: 2em 0em; 
+
+   }
+
+   .portitem {
+        width: 80%;
+        margin: 0 auto;
+        padding: 5em 0em;
+        font-size: 1em;
+   }
+
+   .portitem h1 {
+       text-align: center;
+   }
+
+
+   .portitem-button {
+        background-color:#BBC7DF; 
+        color: white;
+        border: none;
+        width: 80vw;
+        padding: 1em 0em;
+        margin-top: 1em;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1em;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s; 
+   }
+
+   .portitem-button:hover {
+        background-color: white;
+        color: black;
+   }
+
+   .brand-link {
+       color: #BBC7DF;
+   }
+
+
+
+
+
+
+
+
+
+/* ****************************** Media Queries ********************************************************************** */
   @media screen and (min-width: 768px) {
 
 
@@ -292,8 +352,19 @@ body {
 
     /* work section */
 
- .portfolio-grid-item {
-     /* width: 50%; */
+
+ .port-photo {
+     width: 40vw;
  }
+
+ .demobutton-wrapper {
+       
+    display: flex;
+    justify-content: flex-end;
+}
+
+.portitem-button {
+    margin-left: 1em;
+}
 
   }
