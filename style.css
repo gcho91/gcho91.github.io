@@ -122,7 +122,6 @@ body {
 
 
   .home-social a {
-
     color: #181C1D;
     -o-transition:.2s;
     -ms-transition:.2s;
@@ -184,7 +183,9 @@ body {
   /************ portfolio work section ***************/
 
   .portfolio-container {
+
       background-color: #171C1D;
+
       color: white;
   }
 
@@ -228,7 +229,9 @@ body {
    /* ******************************** port item***************** */
 
    .portitem-container {
+
         background-color: #171C1D;
+
         color:white;
    }
 
