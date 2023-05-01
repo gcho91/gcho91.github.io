@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap');
 
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -13,11 +13,10 @@ body {
 .navbar {
     font-size: 18px;
     font-style: italic;
-    /* background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf   100%); */
     background-color: #BBC7DF;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 10px;
-    
+
 }
 
 .main-nav {
@@ -27,10 +26,10 @@ body {
 
 /* nav logo, links, menu hamburger color */
 .nav-links,
-.logo, .fa-bars {
+.logo,
+.fa-bars {
     text-decoration: none;
-    /* color: rgba(255, 255, 255, 0.7); */
-    color:#171C1D;
+    color: #171C1D;
 }
 
 .main-nav li {
@@ -50,160 +49,162 @@ body {
     top: 10px;
     right: 20px;
     cursor: pointer;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 24px;
 }
 
 .active {
     display: block;
-  }
+}
 
-  .gloria-photo {
-      width: 100%;
-      height: auto;
-  }
+.gloria-photo {
+    width: 100%;
+    height: auto;
+}
 
 
-  /* home intro section */
+/* home intro section */
 
-  .home-intro-container {
-      /* background-color: black; */
-      background-color: #181C1D;
-      color:white;
-  }
+.home-intro-container {
+    /* background-color: black; */
+    background-color: #181C1D;
+    color: white;
+}
 
-  .home-intro {
-      width: 80%;
-      margin: 0 auto;
-      padding: 5em 0em;
-      text-align: center;
-      font-size: 1em;
-      line-height: 1.5;
-  }
+.home-intro {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5em 0em;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;
+}
 
-  .text-blue {
-      color: #BBC7DF;
-  }
+.text-blue {
+    color: #BBC7DF;
+}
 
-  .smy-button {
-      background-color:#BBC7DF;
-      /* background-color: #BEBFD0; */
-      color: white;
-      border: none;
-      width: 100%;
-      padding: 1.5em 0em;
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 1em;
+.smy-button {
+    background-color: #BBC7DF;
+    /* background-color: #BEBFD0; */
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 1.5em 0em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
 
-      -webkit-transition-duration: 0.4s; /* Safari */
-      transition-duration: 0.4s;
-  }
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
 
-  .smy-button:hover {
+.smy-button:hover {
     background-color: white;
     /* color: black; */
     color: #181C1D;
-  }
+}
 
-  .home-social-container {
-    background-color:#BBC7DF;
+.home-social-container {
+    background-color: #BBC7DF;
 
-  }
+}
 
   .home-social {
       font-size: 1em;
       text-align: center;
       padding: 0.6em 0em;
   }
+.home-social-buttons {
+    font-size: 3em;
+}
 
-  .home-social-buttons {
-      font-size: 3em;
-  }
 
-
-  .home-social a {
+.home-social a {
     color: #181C1D;
-    -o-transition:.2s;
-    -ms-transition:.2s;
-    -moz-transition:.2s;
-    -webkit-transition:.2s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
     /* ...and now for the proper property */
-    transition:0.2s;
-  }
+    transition: 0.2s;
+}
 
 
-  .home-social a:link, a:visited, a:hover{
-      text-decoration: none; 
-  }
+.home-social a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
 
 
 .home-social a:hover {
     color: white;
 }
 
-  .footer-container {
-      background-color: #171C1D;
-  }
-
-
-  .footer {
-      font-size: 1em;
-      color: white;
-      text-align: center;
-      padding: 0.8em 0em;
-      text-transform: uppercase;
-  }
-
-  /* about page */
-
-  .about-container {
+.footer-container {
     background-color: #171C1D;
-    color:white;
-  }
+}
 
-  .about {
+
+.footer {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 0.8em 0em;
+    text-transform: uppercase;
+}
+
+/* about page */
+
+.about-container {
+    background-color: #171C1D;
+    color: white;
+}
+
+.about {
     width: 80%;
     margin: 0 auto;
     padding: 5em 0em;
     text-align: center;
     font-size: 1em;
-  }
+}
 
-  .about-photo {
-      /* width: 70%; */
-      width: 100%;
-      padding: 2em 0em;
-  }
+.about-photo {
+    /* width: 70%; */
+    width: 100%;
+    padding: 2em 0em;
+}
 
-  .about-blurb {
-      font-size: 1.5em;
-      line-height: 1.5em;
-  }
+.about-blurb {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
 
-  /************ portfolio work section ***************/
+/************ portfolio work section ***************/
 
-  .portfolio-container {
+.portfolio-container {
 
-      background-color: #171C1D;
+    background-color: #171C1D;
 
-      color: white;
-  }
+    color: white;
+}
 
-  .portfolio {
+.portfolio {
     width: 100%;
     margin: 0 auto;
     padding: 5em 0em;
     text-align: center;
     font-size: 1em;
-  }
+}
 
 
-  .container {
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items:flex-end;
-  }
+    align-items: flex-end;
+}
 
 .work-title {
     color: white;
@@ -214,67 +215,68 @@ body {
 
 
 
-  .port-photo {
-      /* width:500px; */
-      width: 80vw;
-      margin: 20px;
-  }
+.port-photo {
+    /* width:500px; */
+    width: 80vw;
+    margin: 20px;
+}
 
-  .port-photo:hover {
+.port-photo:hover {
     transform: scale (1.1);
-   }
-
-   
-
-   /* ******************************** port item***************** */
-
-   .portitem-container {
-
-        background-color: #171C1D;
-
-        color:white;
-   }
-
-   .portitem-photo {
-        width: 80vw;
-        /* width: 100%; */
-        padding: 2em 0em; 
-
-   }
-
-   .portitem {
-        width: 80%;
-        margin: 0 auto;
-        padding: 5em 0em;
-        font-size: 1em;
-   }
-
-   .portitem h1 {
-       text-align: center;
-   }
+}
 
 
-   .portitem-button {
-        background-color:#BBC7DF; 
-        color: white;
-        border: none;
-        width: 80vw;
-        padding: 1em 0em;
-        margin-top: 1em;
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 1em;
-        -webkit-transition-duration: 0.4s; /* Safari */
-        transition-duration: 0.4s; 
-   }
 
-   .portitem-button:hover {
-        background-color: white;
-        color: #171C1D;
-   }
+/* ******************************** port item***************** */
 
-   .brand-link {
-       color: #BBC7DF;
-   }
+.portitem-container {
+
+    background-color: #171C1D;
+
+    color: white;
+}
+
+.portitem-photo {
+    width: 80vw;
+    /* width: 100%; */
+    padding: 2em 0em;
+
+}
+
+.portitem {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5em 0em;
+    font-size: 1em;
+}
+
+.portitem h1 {
+    text-align: center;
+}
+
+
+.portitem-button {
+    background-color: #BBC7DF;
+    color: white;
+    border: none;
+    width: 80vw;
+    padding: 1em 0em;
+    margin-top: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.portitem-button:hover {
+    background-color: white;
+    color: #171C1D;
+}
+
+.brand-link {
+    color: #BBC7DF;
+}
 
 
 
@@ -285,19 +287,19 @@ body {
 
 
 /* ****************************** Media Queries ********************************************************************** */
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
 
 
-     .navbar {
+    .navbar {
         display: flex;
         justify-content: space-between;
         padding-bottom: 0;
         height: 70px;
         align-items: center;
-    } 
+    }
 
-     .main-nav {
+    .main-nav {
         display: flex;
         margin-right: 30px;
         flex-direction: row;
@@ -316,19 +318,19 @@ body {
         margin-top: 0;
     }
 
-   .navbar-toggle {
-       display: none;
+    .navbar-toggle {
+        display: none;
     }
 
     .logo:hover,
     .nav-links:hover {
         color: rgba(255, 255, 255, 1);
-    } 
+    }
 
-/* home page  */
+    /* home page  */
     .smy-button {
         width: 50%;
-        margin-top:2em;
+        margin-top: 2em;
     }
 
     .home-intro {
@@ -355,25 +357,21 @@ body {
 
     .about-photo {
         width: 100%;
-        /* width: 100%; */
-        /* padding: 2em 0em; */
     }
 
     /* work section */
+    .port-photo {
+        width: 40vw;
+    }
 
+    .demobutton-wrapper {
 
- .port-photo {
-     width: 40vw;
- }
+        display: flex;
+        justify-content: flex-end;
+    }
 
- .demobutton-wrapper {
-       
-    display: flex;
-    justify-content: flex-end;
+    .portitem-button {
+        margin-left: 1em;
+    }
+
 }
-
-.portitem-button {
-    margin-left: 1em;
-}
-
-  }
